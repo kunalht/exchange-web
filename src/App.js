@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import ConvertCurrency from './components/ConvertCurrency';
 
 function App() {
   return (
@@ -8,7 +9,7 @@ function App() {
         Currency Converter
       </p>
       <header className="App-header">
-        <i>Conversion component goes here</i>
+        <ConvertCurrency />
       </header>
     </div>
   );
